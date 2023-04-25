@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "airbnb-base",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "globalReturn": true
+    }
+  },
+  "rules": {
+    "semi": 0,
+    "no-plusplus": "off",
+    "operator-linebreak": "off",
+    "space-in-parens": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-bitwise": 0,
+    "object-curly-newline": ["error", { "multiline": true }],
+    "no-confusing-arrow": "off",
+    "semi-style": ["error", "first"],
+    "no-cond-assign": ["error", "except-parens"]
+  }
+}
