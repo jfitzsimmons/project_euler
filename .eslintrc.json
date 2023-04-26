@@ -22,6 +22,7 @@
     "object-curly-newline": ["error", { "multiline": true }],
     "no-confusing-arrow": "off",
     "semi-style": ["error", "first"],
-    "no-cond-assign": ["error", "except-parens"]
+    "no-cond-assign": ["error", "except-parens"],
+    "nonblock-statement-body-position": ["any"]
   }
 }
